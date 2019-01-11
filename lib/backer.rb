@@ -12,7 +12,7 @@ class Backer
 #  1) Backer - More Advanced #back_project also adds the backer (self) to the project's backers array
 
   def back_project(project)
-    @backed_projects << project
+    backed_projects << project
     project.add_backer(self)
   end
 end
